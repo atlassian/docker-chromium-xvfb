@@ -1,0 +1,21 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "description": "Sample application for headless Chromium",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "author": "Mark Adams <mark@markadams.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mark-adams/docker-chromium-xvfb.git"
+  },
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-qunit": "^0.1.4"
+  },
+  "dependencies": {}
+}
