@@ -2,12 +2,12 @@
 
 This Docker image provides a way to run a real Chromium / Chrome browser
 headless inside of a Docker container. If you're looking for a way to run your Karma or Python Selenium tests
-against a real browser inside of Docker without having to resort to using Phantom JS, this is the project you've been looking for! 
+against Chrome using Docker, this is the project you've been looking for! 
 Use cases include:
 
-* Running Javascript tests with Karma inside a container during development or during CI builds
-* Running browser automation tests with Selenium using Python during CI builds
-* Pretty much anything else where you'd want to use a real Chrome browser within a Docker container
+* Run Javascript tests with Karma inside of Docker during local development or CI builds
+* Run Selenium-powered browser automation tests using Python inside of Docker during your CI builds
+* and pretty much anything else where you'd want to use a real Chrome browser within a Docker container
 
 ## Images
 
