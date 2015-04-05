@@ -11,7 +11,7 @@ headless inside of a Docker container. Use cases include:
 * [markadams/chromium-xvfb](https://registry.hub.docker.com/u/markadams/chromium-xvfb/)
   Base Docker image (Installs Debian, Chromium, Xvfb)
 * [markadams/chromium-xvfb-js](https://registry.hub.docker.com/u/markadams/chromium-xvfb-js/)
-  Designed for running headless JS tests in Chromium (includes node and npm)
+  Designed for running headless JS tests in Chromium (includes iojs (node) and npm)
   This image automatically runs `npm install` and `npm test`
 
 ## Directories
