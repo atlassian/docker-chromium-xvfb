@@ -11,7 +11,10 @@ RUN curl -SLO "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION
   && unzip "chromedriver_linux64.zip" -d /usr/local/bin \
   && rm "chromedriver_linux64.zip"
 
-ONBUILD ADD . /app
+WORKDIR /app
+
+ONBUILD COPY requirements.txt /app/requirements.txt
 ONBUILD RUN pip3 install -r requirements.txt
+ONBUILD COPY . /app
 
 CMD py.test
