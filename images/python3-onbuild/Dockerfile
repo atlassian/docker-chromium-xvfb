@@ -14,3 +14,7 @@ RUN curl -SLO "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION
 WORKDIR /app
 
 CMD py.test
+
+ONBUILD COPY requirements.txt /usr/src/app/requirements.txt
+ONBUILD RUN pip3 install -r requirements.txt
+ONBUILD COPY . /usr/src/app
