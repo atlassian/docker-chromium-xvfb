@@ -22,3 +22,7 @@ RUN curl -SLO "https://iojs.org/dist/v$IOJS_VERSION/iojs-v$IOJS_VERSION-linux-x6
 WORKDIR /usr/src/app
 
 CMD npm test
+
+ONBUILD COPY package.json /usr/src/app/package.json
+ONBUILD RUN npm install
+ONBUILD COPY . /usr/src/app
