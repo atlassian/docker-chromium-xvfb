@@ -15,7 +15,8 @@
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.7",
     "karma-junit-reporter": "^0.2.2",
-    "karma-qunit": "^0.1.4"
+    "karma-qunit": "^0.1.4",
+    "qunitjs": "^1.14.0"
   },
   "dependencies": {}
 }
