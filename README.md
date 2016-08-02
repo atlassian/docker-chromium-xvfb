@@ -2,7 +2,7 @@
 
 This Docker image provides a way to run a real Chromium / Chrome browser
 headless inside of a Docker container. If you're looking for a way to run your Karma or Python Selenium tests
-against Chrome using Docker, this is the project you've been looking for! 
+against Chrome using Docker, this is the project you've been looking for!
 Use cases include:
 
 * Run Javascript tests with Karma inside of Docker during local development or CI builds
@@ -25,7 +25,7 @@ Use cases include:
 
 ## Methodology
 The key to this project and to getting Chromium / Google Chrome to work inside
-of a container is the wrapper script, [xvfb-chromium](images/image-base/xvfb-chromium).
+of a container is the wrapper script, [xvfb-chromium](images/base/xvfb-chromium).
 
 The wrapper script does a number of things:
 1. Launches the X virtual frame buffer (Xvfb) which emulates an X11 display so
