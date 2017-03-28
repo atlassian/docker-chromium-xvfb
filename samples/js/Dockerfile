@@ -1,1 +1,1 @@
-FROM markadams/chromium-xvfb-js:latest-onbuild
+FROM markadams/chromium-xvfb-js:7-onbuild
