@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM buildpack-deps:jessie
 
 RUN apt-get update && apt-get install -y curl xvfb chromium
 
