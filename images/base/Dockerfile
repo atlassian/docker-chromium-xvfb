@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+ENV LANG C.UTF-8
+
 RUN apt-get update && apt-get install -y curl xvfb chromium
 
 ADD xvfb-chromium /usr/bin/xvfb-chromium
