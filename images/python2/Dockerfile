@@ -5,8 +5,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install pytest selenium
 
-ENV CHROMEDRIVER_VERSION 2.29
-ENV CHROMEDRIVER_SHA256 bb2cf08f2c213f061d6fbca9658fc44a367c1ba7e40b3ee1e3ae437be0f901c2
+ENV CHROMEDRIVER_VERSION 2.36
+ENV CHROMEDRIVER_SHA256 2461384f541346bb882c997886f8976edc5a2e7559247c8642f599acd74c21d4
 
 RUN curl -SLO "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip" \
   && echo "$CHROMEDRIVER_SHA256  chromedriver_linux64.zip" | sha256sum -c - \
