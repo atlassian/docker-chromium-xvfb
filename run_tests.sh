@@ -15,9 +15,6 @@ docker build -f images/python3-onbuild/Dockerfile -t markadams/chromium-xvfb-py3
 docker build -f samples/python3/Dockerfile -t markadams/chromium-xvfb-py3-sample samples/python3
 
 # Build JS images
-docker build -f images/js/Dockerfile-6.x -t markadams/chromium-xvfb-js:6 images/js
-docker build -f images/js-onbuild/Dockerfile-6.x -t markadams/chromium-xvfb-js:6-onbuild images/js-onbuild
-
 docker build -f images/js/Dockerfile-8.x -t markadams/chromium-xvfb-js:8 images/js
 docker build -f images/js-onbuild/Dockerfile-8.x -t markadams/chromium-xvfb-js:8-onbuild images/js-onbuild
 
