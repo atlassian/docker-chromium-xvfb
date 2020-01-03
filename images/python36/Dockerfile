@@ -1,6 +1,8 @@
 FROM markadams/chromium-xvfb
 
-RUN apt-get update && apt-get install -y \
+ENV DEBIAN_FRONTEND noninteractive
+RUN apt-get update && \
+    apt-get install -y \
     python3.6 python3-pip curl unzip libgconf-2-4
 
 RUN pip3 install pytest selenium
