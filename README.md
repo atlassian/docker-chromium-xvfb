@@ -11,15 +11,15 @@ Use cases include:
 
 ## Images
 
-* [markadams/chromium-xvfb](https://registry.hub.docker.com/u/markadams/chromium-xvfb/)
+* [markadams/chromium-xvfb](https://registry.hub.docker.com/r/markadams/chromium-xvfb/)
   Base Docker image (Installs Debian, Chromium, Xvfb)
-* [markadams/chromium-xvfb-js](https://registry.hub.docker.com/u/markadams/chromium-xvfb-js/)
+* [markadams/chromium-xvfb-js](https://registry.hub.docker.com/r/markadams/chromium-xvfb-js/)
   Designed for running headless JS tests in Chromium (includes iojs (node) and npm)
   This image automatically runs `npm install` and `npm test`
-* [markadams/chromium-xvfb-py2](https://registry.hub.docker.com/u/markadams/chromium-xvfb-py2/)
+* [markadams/chromium-xvfb-py2](https://registry.hub.docker.com/r/markadams/chromium-xvfb-py2/)
   Designed for running headless Selenium tests in Chromium (Python 2)
   This image automatically runs `pip install -r requirements.txt`
-* [markadams/chromium-xvfb-py3](https://registry.hub.docker.com/u/markadams/chromium-xvfb-py3/)
+* [markadams/chromium-xvfb-py3](https://registry.hub.docker.com/r/markadams/chromium-xvfb-py3/)
   Designed for running headless Selenium tests in Chromium (Python 3)
   This image automatically runs `pip3 install -r requirements.txt`
 
